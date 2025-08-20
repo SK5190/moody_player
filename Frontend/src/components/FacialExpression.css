@@ -1,0 +1,38 @@
+.user-video-feed{
+    width: 20rem;
+    aspect-ratio: 16/9;
+    object-fit: cover;
+    border-radius: 1rem;
+}
+
+.video-container {
+    /* background-color: red; */
+    display: flex;
+    gap:2rem;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    /* background-color: green; */
+    /* width: 35%; */
+}
+.video-btn{
+    padding: .1rem 1.5rem;
+    background-color: slateblue;
+    border: none;
+    border-radius: .2rem;
+}
+up{
+    display: flex;
+    flex-direction: column;
+    gap: .8rem;
+}
+div:nth-child(2){
+    display: flex;
+    flex-direction: column;
+    gap: 1.8rem;;
+}
+div:nth-child(3)>h1{
+    background-color: red;
+    color:black;
+    font-size: 1.2rem;
+}
